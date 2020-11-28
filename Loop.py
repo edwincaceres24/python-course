@@ -16,7 +16,7 @@ while True:
         print('Dime tu verdadero nombre por fa')
         #start the Loop
         continue
-    print('Hola Emilia. Eres una chiquisaurio. ¿Cuál es tu clave?')
+    print('Hola Meilia. Eres una chiquisaurio. ¿Cuál es tu clave?')
     password = input()
     if password =='Elon':
         print("Buenaaa chola")

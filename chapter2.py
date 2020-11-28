@@ -8,4 +8,4 @@ if myAge < 18:
 elif myAge< 30:
     print("Buenos días su señoría")
 else:
-    print("Disculpe usted distinguido Sr.")
+    print("Disculpe usted distinguido Sr")

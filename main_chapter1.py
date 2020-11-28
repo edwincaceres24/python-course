@@ -15,4 +15,4 @@ if yourAge < 4:
 elif myName=="Edwin":
     print("Es usted un agradable sujeto")
 elif yourAge> 18:
-        print("Eres una Jodidasaurio")
+        print("Eres una Nathisaurio")
