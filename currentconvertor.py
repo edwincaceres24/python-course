@@ -1,6 +1,6 @@
 #moneda = str
 #cantidad = int
-tc= 3.62
+tc= 3.65
 
 print('Hola, ¿cuántos soles vas a cambiar?')
 moneda=float(input())
