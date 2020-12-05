@@ -1,10 +1,32 @@
 #moneda = str
 #cantidad = int
-tc= 3.65
 
-print('Hola, ¿cuántos soles vas a cambiar?')
-moneda=float(input())
-print('De acuerdo, recibirás '+ str(moneda/tc)+ ' dólares')
+def conversor (available_currency,tc_exachange):
+    print('Hola, ¿cuántos ' + available_currency + ' vas a cambiar?')
+    my_currency=float(input()) 
+    print('De acuerdo, recibirás '+ str(round(my_currency/tc_exachange,2))+ ' dólares')
+
+tc_exachange= 3.65
+
+available_currency = ["PEN","CHI","MEX","ARG"]
+
+print('Hola, ¿qué moneda vas a cambiar? Elige una opción')
+for exchanges in available_currency:
+    print("- " + exchanges)
+my_currency=input()    
+
+if my_currency == "PEN":
+    conversor("soles",3.65)
+elif my_currency =="CHI":
+    conversor("pesos chilenos",3875)
+elif my_currency =="MEX":
+    conversor("pesos mexicanos", 2560)
+elif my_currency =="ARG":
+    conversor("pesos argentinos",97)
+else:
+    print('Lo siento, no ofrecemos cambio para esa moneda')
+
+
 
 #Este comentario lo hice en la rama Master
 #print Estos cambios los hice en la rama cambios
