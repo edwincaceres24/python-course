@@ -1,16 +1,16 @@
-#moneda = str
-#cantidad = int
 
+#Función para mostrar la moneda y el tc dináminco
 def conversor (available_currency,tc_exachange):
     print('Hola, ¿cuántos ' + available_currency + ' vas a cambiar?')
     my_currency=float(input()) 
     print('De acuerdo, recibirás '+ str(round(my_currency/tc_exachange,2))+ ' dólares')
 
-tc_exachange= 3.65
-
 available_currency = ["PEN","CHI","MEX","ARG"]
 
-print('Hola, ¿qué moneda vas a cambiar? Elige una opción')
+
+print('Hola, ¿Cuál es tu nombre?')
+customer_name=input()
+print('Hola ' + customer_name.capitalize() +', ¿qué moneda vas a cambiar? Elige una opción')
 for exchanges in available_currency:
     print("- " + exchanges)
 my_currency=input()    
