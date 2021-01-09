@@ -2,13 +2,15 @@
 import os
 import shutil
 
-#Define variables
 download_rutes ="/Users/administrador/Downloads/"
+#Define variables, se debe convertir en un diccionario esto
+#Esto se puede convertir en un objeto
 ext_text= ['.docx','.txt','.doc','.pdf','.pptx']
 ext_img=['.png','.jpg','.jpeg','.gif',]
 ext_video=['.mov','.mp4']
 ext_sfk=['.sfk']
 
+#Esto puede ir en un archivo aparte
 
 def main():
     for file in os.listdir(download_rutes): #Lista todos los archivos y carpetas
